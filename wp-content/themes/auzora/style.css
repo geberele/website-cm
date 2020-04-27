@@ -1,0 +1,202 @@
+/*
+Theme Name: AUZORA
+Description: WordPress One Page for Business, Portfolio.
+Author: ThemesGuy	
+Author URI: http://themeforest.net/user/themesguy
+Tags: 2 colors, One Page, Business, Portfolio.
+Version: 1.0
+*/
+
+/* ==== RESET ==== */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,
+blockquote,pre,address,code,del,dfn,em,img,q,
+dl,dt,dd,ol,ul,li,
+table,caption,tbody,tfoot,thead,tr,th,td,br,fieldset,textarea{font-family: "Lucida Sans Unicode","Lucida Grande", Arial, Verdana, sans-serif;line-height:20px;letter-spacing:0px;word-spacing:0px;margin:0;padding:0;border:0;vertical-align:baseline;outline: 0;}
+strong, b{font-weight:bold;}
+em, dfn, i{font-style:italic;}
+a, img{outline: none; border: 0;}
+a{text-decoration: none;}
+
+/* ==== STYLES (General/Global) ==== */
+body { margin: 0; padding: 0; position: relative; font-family: "Lucida Sans Unicode","Lucida Grande", Arial, Verdana, sans-serif;  font-size: 13px;line-height: 22px; text-align:justify;}
+h1, h2, h3, h4, h5, h6  { font-weight:normal;font-family: Tahoma,Geneva,Arial,sans-serif;line-height: 100%;}
+h1  {font-size: 24px;} 
+h2  {font-size: 20px;} 
+h3  {font-size: 18px;} 
+h4  {font-size: 16px;} 
+h5  {font-size: 15px;} 
+h6  {font-size: 13px;}
+h1 strong{font-size: 40px;font-weight: bold;}
+h1,h2,h3,h4,h5,h6,hr,p,ul,ol,dl,pre,address,table,form{margin:0 0 15px}
+ul,li{list-style:none outside;margin-left:20px;list-style-type:disc;}
+ol, ol li{list-style:decimal outside;}
+ol, dd{margin-left:24px;}
+ul ul, ol ul, ul ol, ol ol{margin-bottom:0;margin-top:0;}
+
+blockquote{margin: 10px 20px 5px 20px; padding-left: 18px; font-size: 12px; font-style: italic; letter-spacing: 1px;font-family: Times, Georgia, serif; background: url(images/quote.png) 0px 0px no-repeat; }
+blockquote p{padding: 0px;}
+.wrap{margin: 0 auto; padding: 0px; width: 960px;}
+.clear{clear:both;display:block;font-size:0px;height:0px;line-height:0;width:100%;}
+.right{float: right; display: inline}
+.left{float: left; display: inline}
+
+.alignright,img.alignright,a img.alignright {float:right; margin:10px 0px 10px 16px;}
+.alignleft,img.alignleft,a img.alignleft {float:left; margin:10px 16px 10px 0;}
+.aligncenter,img.aligncenter,a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+.wp-caption {border: 1px solid #ddd;margin-bottom:18px;text-align: center;background-color: #fff;padding: 4px;-moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;}
+.wp-caption img {margin: 0;padding: 0;border: none;}
+.wp-caption p.wp-caption-text {font-size: 11px;line-height: 17px;padding: 0 4px 5px;margin: 0;color: #111;}
+
+/* ==== TOP SECTIONS ==== */
+
+	#top{margin: 0;padding: 10px 0px;}
+	#logo{margin: 0px auto 10px; padding: 0px;text-align:center;}
+
+/* ====MAIN SECTIONS ==== */
+	
+	#main{margin: 0px; padding: 0px;height: 467px; display: block;position: relative;}
+	#main #main_wrap{width: 940px; height: 467px; right: 0; top: 0; position: absolute;overflow: display;}
+	#main #main_wrap .left_wrap{position:absolute; bottom: 0; left: 0;height: 54px; width: 470px;z-index: 0;}
+	#main #main_wrap .right_wrap{position:absolute; bottom: 0; right: 0;height: 54px; width: 470px;z-index: 0;}
+	#thisport{overflow: display!important;}
+	.main_holder{position: absolute;margin: 0;padding: 0;right: 60px; top: -660px;width: 820px;height: 440px;}
+	.flowed{overflow: hidden;}
+	.show{top: 0px;}
+	
+	/*navigation*/
+	.menu-shad{position:absolute; bottom: 18px;left:-10px;width: 80px; height: 20px;}
+	.navigation{position:absolute; left: 0; bottom: 25px; width: 60px;margin: 0; padding: 0px 0px 11px 0px;}
+	.navigation .navigation_top{margin: 0; padding: 12px 0px 0px 0px;}
+	.navigation .nav{margin: 0;padding: 0;}
+	.nav ul{margin: 0; padding: 2px 0px 0px 0px; list-style-type: none;}
+	.nav ul li{margin: 0; padding: 0px 1px 2px 1px; list-style-type: none;position:relative;}
+	.nav ul li a{display: block;height: 36px; line-height: 36px; text-align: center; margin: 0; padding: 0;}
+
+	/*slider bg*/
+	#featured{margin: 0px; padding: 0; height: 325px;}
+	#featured #featured-img{margin: 0;padding: 0;position: relative; height: 300px;}
+	#featured #featured-img img{display: none;position: absolute; top: 0; left: 0;}
+	#featured #feat-shad{margin: 0; height: 25px; padding: 0;}
+	
+	
+	/*main/content*/
+	h1.general_title{margin-bottom: 2px;padding-bottom: 8px;}
+	h3.front-teaser{margin-bottom: 0px;padding-bottom: 15px;line-height: 24px;text-align:center;}
+	h3.front-teaser span{padding-top: 10px; margin: 0; display: block;}
+	.inner{margin: 0; padding: 20px;}
+	.inner .front-texts{height: 22px;margin: 0;padding:10px 0px;position: relative;}
+	.inner .front-texts .texts{margin: 0px; padding: 0px 0px 20px;height: 92px;}
+	.inner .front-texts .top-fade, .inner .large-texts .top-fade{position: absolute; left: -10px; top: -2px; width: 780px; height: 18px; display: block;z-index: 1002;}
+	.inner .front-texts .bot-fade, .inner .large-texts .bot-fade{position: absolute; left: -10px; bottom: 20px; width: 780px; height: 18px; display: block;z-index: 1002;}
+	.inner .large-texts{height: 350px;margin: 0;padding:10px 0px;position: relative;}
+	.inner .large-texts .texts{margin: 0px; padding: 0px 10px 20px 0px;height: 310px;position: relative;}
+	
+	.inner #portfolio_lists{margin: 0;padding: 0px 0px 10px; overflow: display;position:relative;}
+	#portfolio_lists .portfolio_thumb{float: left; _display: inline; width: 250px; height: 120px /*110px*/;margin: 30px /*10px*/ 5px 0px; padding: 0;}
+	.portfolio_thumb .inside_port{width: 250px; height: 110px;margin: 0; padding: 0;position:relative;overflow: display;}
+	.portfolio_thumb .inside_port img{display: none;}
+	.pimage .keker{background: #fff url(images/big_keker.png) center no-repeat;}	
+	.pvid .keker{background: #fff url(images/playvid.png) center no-repeat;}	
+	
+	/*Shortcode stylesheet */	
+		/*lists*/
+		ul.star,  ul.check{margin:0 0 20px 0;list-style-type: none;}
+		ul.star ul{margin-left: 20px;margin-bottom:0;margin-top:0;}
+		ul.star li{padding-left: 20px; margin-left: 0px; background: url(images/star.png) 0px 3px no-repeat;list-style-type: none;}
+		ul.check ul{margin-left: 20px;margin-bottom:0;margin-top:0;}
+		ul.check li{padding-left: 20px; margin-left: 0px; background: url(images/check.png) 0px 3px no-repeat;list-style-type: none;}
+		
+		/*dropcap*/
+		.dropcap{float: left; display: inline-block; font-size: 40px; line-height: 100%; margin: 0px 10px 0px 0px;position: relative}
+
+		/*column*/
+		.two_column{float: left; display: inline; width: 47%; margin: 0; padding: 0;}
+		.two_column_last{float: right; display: inline; width: 47%; margin: 0; padding: 0;}
+		.three_column{float: left; display: inline; width: 30%; margin-right: 5%; padding: 0;}
+		.three_column_last{float: right; display: inline; width: 30%; margin: 0; padding: 0;}
+		.four_column{float: left; display: inline; width: 22%; margin-right: 4%; padding: 0;}
+		.four_column_last{float: right; display: inline; width: 22%; margin: 0; padding: 0;}
+		
+		/*pullquotes*/
+		.quote_left{float: left; display: inline-block; width: 260px; margin: 20px 20px 20px 0px;padding-left: 22px; font-size: 13px; font-style: italic; font-family:Times, Georgia, serif; background: url(images/quote.png) 0px 0px no-repeat;}
+		.quote_right{float: right; display: inline-block; width: 260px; margin: 20px 0px 20px 20px;padding-left: 22px; font-size: 13px; font-style: italic; font-family:Times, Georgia, serif; background: url(images/quote.png) 0px 0px no-repeat;}
+		
+		/*services*/
+		ul.two-columns{list-style: none; margin: 0px 0px 20px;padding: 0px;}
+		ul.two-columns li{list-style: none;margin:0; padding: 4px 0px;}
+		ul.two-columns li strong{font-size: 14px;font-weight: normal}
+		.imgleft{float:left; margin: 5px 10px 0px 0px;}
+		.rounded-in ul.two-columns{margin: 0px 0px 0px!important;}
+		
+/* FOOTER */
+	#footer{margin: 0; padding: 0;}
+	#footer .copyright{float: left; display: inline;height: 26px; line-height: 26px; margin: 0; padding: 0; font-size: 11px; text-transform: uppercase; color:#000;}
+	#footer .social_link{float: right; display: inline; margin: 0px 60px 0px 0px; padding: 0;}
+	#footer .social_link ul#social{list-style-type: none; margin: 0; padding: 0;}
+	#footer .social_link ul#social li{list-style-type: none;display: inline;float: right; margin: 0px 0px 0px 5px; padding: 0;width: 26px; height: 26px;position: relative;}
+	#footer .social_link ul#social li a{position:absolute; top: 0; left: 0;}
+	#footer .social_link ul#social li a.twitter{display: block; width: 26px; height: 26px; margin: 0; background: url(images/social/twitter.png) no-repeat;}
+	#footer .social_link ul#social li a.facebook{display: block; width: 26px; height: 26px; margin: 0; background: url(images/social/facebook.png) no-repeat;}
+	#footer .social_link ul#social li a.flickr{display: block; width: 26px; height: 26px; margin: 0; background: url(images/social/flickr.png) no-repeat;}
+	#footer .social_link ul#social li a.delicious{display: block; width: 26px; height: 26px; margin: 0; background: url(images/social/delicious.png) no-repeat;}
+	#footer .social_link ul#social li a.stumbleupon{display: block; width: 26px; height: 26px; margin: 0; background: url(images/social/stumbleupon.png) no-repeat;}
+	
+	.jScrollPaneContainer {position: relative;overflow: hidden;z-index: 1;}
+	.jScrollPaneTrack {position: absolute;cursor: pointer;right: 2px;top: 0;height: 100%;}
+	.jScrollPaneDrag {position: absolute;overflow: hidden;background: #c1c1c1;cursor: pointer;border-width: 1px;border-style: solid;border-color: #d3d3d3;-moz-border-radius: 6px;-webkit-border-radius: 6px;-khtml-border-radius: 6px;border-radius: 6px;-moz-box-sizing: content-box;-webkit-box-sizing: content-box;-khtml-box-sizing: content-box;box-sizing: content-box;box-shadow: -1px 0px 1px #111;-moz-box-shadow: -1px 0px 1px #111;-webkit-box-shadow: -1px 0px 1px #111;	}
+	.jScrollPaneDragTop {position: absolute;top: 0;left: 0;overflow: hidden;}
+	.jScrollPaneDragBottom {position: absolute;bottom: 0;left: 0;overflow: hidden;}
+	a.jScrollArrowUp {display: block;position: absolute;z-index: 1;top: 0;right: 0;text-indent: -2000px;overflow: hidden;/*background-color: #666;*/height: 9px;}
+	a.jScrollArrowUp:hover {/*background-color: #f60;*/}
+	a.jScrollArrowDown {display: block;position: absolute;z-index: 1;bottom: 0;right: 0;text-indent: -2000px;overflow: hidden;/*background-color: #666;*/height: 9px;}
+	
+	
+	fieldset{padding:20px;border:1px solid #e5e5e5;}
+	legend,label{letter-spacing:1px;text-transform:uppercase;font-size:11px;}
+	input[type=text],input[type=password],input[type=file],textarea, select{background-color:transparent;padding:5px;width:180px;-moz-border-radius:6px;-webkit-border-radius:5px;border-radius: 5px;}
+	textarea{width:80%;height:100px;font-size:12px;}
+	input, textarea, select {outline-style:none!important;}
+	input[type="submit"]::-moz-focus-inner{border : 0px;} 
+	input[type="submit"]:focus{outline:none;}
+	button::-moz-focus-inner,
+	input[type="reset"]::-moz-focus-inner,
+	input[type="button"]::-moz-focus-inner,
+	input[type="submit"]::-moz-focus-inner,
+	input[type="file"] > input[type="button"]::-moz-focus-inner {
+		border: none;
+	}
+	.label{display: inline-block; width: 80px;margin: 0px;vertical-align: top;padding-top: 3px;}
+	.req{color: #ED3C3C; font-weight: bold;font-size: 14px;vertical-align: top;padding-top: 3px;}
+	.req small{font-weight: normal;font-size: 11px;vertical-align: top;}
+	.contactload{margin: 0px 0px 0px 8px;height: 16px; line-height: 16px; padding-left: 22px;padding-top: 5px;display: inline-block;vertical-align:top;}
+	#contact_success{background: #C3FF88 url(images/success.gif) 5px 50% no-repeat;border: 1px solid #8DFF1C;color: #333;padding: 6px 0px 6px 35px;margin: 0px 0px 20px;position: relative;}
+	#contact_success .jq_close{display: block;cursor: pointer; position: absolute; right: 3px; top: 3px;width: 16px; height: 16px; background: url(images/close.png) 0 0 no-repeat;}
+	input#contact_submit{margin-left: 80px;border: 0px;cursor: pointer;}	
+
+
+input[type="text"], input[type="password"], input[type="file"], textarea, select{
+ background-color:#fff ! important;
+}
+
+#my_cv td{
+    border-bottom: 1px #999999 dashed;
+    padding:10px;
+}
+
+
+#my_cv b{
+    color: #E5E5E5;
+    font-size:13px;
+}
+
+.titoli_anni{
+    color:#a8bfa8;
+}
+
+
+.header_sezioni{
+     padding-top:50px ! important;
+}
+
+
+

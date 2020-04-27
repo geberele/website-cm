@@ -1,0 +1,18 @@
+	.nav ul li a.menu_home{background: url(icons/home.png) center no-repeat;}
+	.nav ul li a.menu_user{background: url(icons/user.png) center no-repeat;}
+	.nav ul li a.menu_double_user{background: url(icons/double_user.png) center no-repeat;}
+	.nav ul li a.menu_application{background: url(icons/application.png) center no-repeat;}
+	.nav ul li a.menu_mail{background: url(icons/mail.png) center no-repeat;}
+	.nav ul li a.menu_computer{background: url(icons/computer.png) center no-repeat;}
+	.nav ul li a.menu_vcard{background: url(icons/vcard.png) center no-repeat;}
+	.nav ul li a.menu_presentation{background: url(icons/presentation.png) center no-repeat;}
+	.nav ul li a.menu_calendar{background: url(icons/calendar.png) center no-repeat;}
+	.nav ul li a.menu_tag{background: url(icons/tag.png) center no-repeat;}
+	.nav ul li a.menu_off{background: url(icons/off.png) center no-repeat;}
+	.nav ul li a.menu_pencil{background: url(icons/pencil.png) center no-repeat;}
+	.nav ul li a.menu_folder{background: url(icons/folder.png) center no-repeat;}
+	.nav ul li a.menu_star{background: url(icons/star.png) center no-repeat;}
+	.nav ul li a.menu_pdf{background: url(icons/pdf.png) center no-repeat;}
+	.nav ul li a.menu_plus{background: url(icons/plus.png) center no-repeat;}
+	.nav ul li a.menu_favorite{background: url(icons/favorite.png) center no-repeat;} 
+.nav ul li a.menu_bloglovinlogo{background: url(icons/bloglovinlogo.jpg) center no-repeat;} 
